@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;800&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.col {
+  color: #0056cd;
+}
+
+.beta {
+  background-color: #d6e6ff;
+  font-size: 0.9rem;
+  border-radius: 3px;
+  padding: 5px 7px;
+}
+
+.child_wrap {
+  width: 87%;
+  margin: 0px auto;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header {
+  padding: 1.1rem 0px;
+  -webkit-box-shadow: 0px 0px 18px 1px #e6e6e6;
+          box-shadow: 0px 0px 18px 1px #e6e6e6;
+}
+
+header .logo {
+  width: 70px;
+}
+
+header .logo img {
+  width: 100%;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0 3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav ul li {
+  list-style-type: none;
+  color: #1e2329;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+header nav ul .sign {
+  color: #0056cd;
+}
+
+header nav ul .btn button {
+  background-color: #0056cd;
+  color: white;
+  padding: 5px 20px;
+  font-size: 1em;
+  font-family: 'Poppins';
+  border: none;
+  border-radius: 5px;
+}
+
+.hero {
+  padding-top: 6%;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.hero .txt {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem 0;
+}
+
+.hero .txt h1 {
+  font-weight: 800;
+  line-height: 58px;
+  font-size: 46px;
+  color: #1e2329;
+}
+
+.hero .txt p {
+  font-size: 17px;
+  line-height: 30px;
+  color: #1e2329;
+  font-weight: 300;
+}
+
+.hero .txt .btn button {
+  background-color: #0056cd;
+  color: white;
+  padding: 15px 27px;
+  font-size: 1em;
+  font-family: 'Poppins';
+  border: none;
+  border-radius: 5px;
+}
+
+.hero .txt .cc {
+  font-size: 0.9em;
+  color: grey;
+}
+
+.hero .img {
+  width: 38%;
+  position: relative;
+}
+
+.hero .img img {
+  width: 100%;
+}
+
+.hero .img .icon1 {
+  top: 17%;
+  left: -15%;
+  position: absolute;
+}
+
+.hero .img .icon2 {
+  top: 50%;
+  left: -15%;
+  position: absolute;
+}
+
+.hero .img .icon3 {
+  bottom: -5rem;
+  left: 10%;
+  position: absolute;
+}
+/*# sourceMappingURL=styles.css.map */

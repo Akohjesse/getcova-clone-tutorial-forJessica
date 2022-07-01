@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;800&display=swap');
+$blue-color: #0056cd;
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.col{
+    color: $blue-color;
+}
+.beta{
+    background-color: #d6e6ff;
+    font-size: 0.9rem;
+    border-radius: 3px;
+    padding: 5px 7px;
+}
+.child_wrap{
+    width: 87%;
+    margin: 0px auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    padding: 1.1rem 0px;
+    box-shadow: 0px 0px 18px 1px #e6e6e6;
+    .logo{
+        width: 70px;
+        img{
+            width: 100%;
+        }
+    }
+    nav{
+        ul{
+            display: flex;
+            gap: 0 3rem;
+            align-items: center;
+            li{
+                list-style-type: none;
+                color: #1e2329;
+                font-weight: 400;
+                font-size: 1em;
+            }
+            .sign{
+                color:$blue-color;
+            }
+            .btn{
+                button{
+                    background-color: $blue-color;
+                    color: white;
+                    padding: 5px 20px;
+                    font-size: 1em;
+                    font-family: 'Poppins';
+                    border: none;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
+.hero{
+    padding-top: 6%;
+    width: 85%;
+    margin: 0 auto;
+    .txt{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem 0;
+        h1{
+            font-weight: 800;
+            line-height: 58px;
+            font-size: 46px;
+            color: #1e2329;
+        }
+        p{
+            font-size: 17px;
+            line-height: 30px; 
+            color: #1e2329;
+            font-weight: 300;
+
+        }
+        .btn{
+            button{
+                background-color: $blue-color;
+                    color: white;
+                    padding: 15px 27px;
+                    font-size: 1em;
+                    font-family: 'Poppins';
+                    border: none;
+                    border-radius: 5px;
+            }
+        }
+        .cc{
+            font-size: 0.9em;
+            color: grey;
+        }
+    }
+    .img{
+        width:38% ;
+        position: relative;
+        img{
+            width: 100%;
+        }
+        .icon1{
+            top: 17%;
+            left: -15%;
+            position: absolute;
+        }
+        .icon2{
+            top: 50%;
+            left: -15%;
+            position: absolute;
+        }
+        .icon3{
+            bottom:-5rem;
+            left: 10%;
+            position: absolute;
+        }
+    }
+}
